@@ -204,7 +204,7 @@ namespace TrueCrypt
 	PreferencesDialog::~PreferencesDialog ()
 	{
 		if (RestoreValidatorBell)
-			wxTextValidator::SetBellOnError (false);
+			wxTextValidator::SuppressBellOnError (false);
 	}
 
 	void PreferencesDialog::SelectPage (wxPanel *page)
