@@ -178,7 +178,7 @@ ifeq "$(shell uname -s)" "Darwin"
 	PLATFORM := MacOSX
 	APPNAME := TrueCrypt
 
-	MPPREFIX := /opt/local
+	MPPREFIX := /usr/local
 
 	PKG_CONFIG_PATH := $(MPPREFIX)/lib/pkgconfig
 	CC := gcc
