@@ -297,7 +297,7 @@ namespace TrueCrypt
 
 		SetMinSize (wxSize (-1, -1));
 
-		size_t slotListRowCount = 12;
+		size_t slotListRowCount = 9;
 
 #ifndef TC_WINDOWS
 		int screenHeight = wxSystemSettings::GetMetric (wxSYS_SCREEN_Y);
