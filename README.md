@@ -1,6 +1,6 @@
 
 
-* Build
+# Build
 ````
 brew install nasm pkg-config
 brew install nasm wxmac
@@ -19,7 +19,7 @@ wget https://raw.githubusercontent.com/Pkcs11Interop/PKCS11-SPECS/master/v2.20/h
 make clean && make -j 4
 ````
 
-* Thanks
+# Thanks
 http://www.nerdenmeister.org/2013/08/16/build-truecrypt-on-os-x-64-bit-with-hardware-acceleration/
 
 
